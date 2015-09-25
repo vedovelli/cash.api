@@ -48,33 +48,6 @@ hosts:
 
 # API METHODS LIST
 
-### :unlock: GET /
-A simple hello world message
-- **Request**: {}
-- **Response**: Hello World
- 
-### :unlock: GET /users
-Return all users
-- **Request**: {}
-- **Response**: `[{id:0,name:'user name',email: 'user@email.com'},..;]`
-
-### :unlock: GET /user/{id}
-Return all users
-- **Request**: {}
-- **Response**: `{id:1,name:'user name',email: 'user@email.com'}`
-
-
-
-
-
-ACTION | URI | Description | Request | Response example
------------- | ------------- | ------------- | ------------- | -------------
-:unlock: GET | / | A simple hello world message | {} | Hello World
-:unlock: GET | /users | All users | {} | [{id:0,name:'user name',email: 'user@email.com'},...]
-:unlock: GET | /user/{id} | Get user by id | {} | {id:1,name:'user name',email: 'user@email.com'}
-:unlock: POST | /user | Save User | {name:'new user',email:'foo@email.com',passwod:'123456'} | {id:120,name:'new user',email:'foo@email.com'}]
-:lock: GET | /user/accounts | User accounts | {} | [{id:5,user_id:1,name:'my account',amount:200.00},...]
-
 
 
 # Tables
