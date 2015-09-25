@@ -48,7 +48,7 @@ hosts:
 
 # API METHODS LIST
 
-
+https://github.com/danielschmitz/cash.api/wiki/API-List
 
 # Tables
 
