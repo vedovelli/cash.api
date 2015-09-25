@@ -52,10 +52,33 @@ hosts:
 
 # Tables
 
+All tables have `created_at` and `updated_at` fields
+
 * User
-** id
-** name
-** email
-** password
-** created_at
-** updated_at
+ * id
+ * name
+ * email
+ * password
+ * remember_token
+
+* Account
+ * id
+ * name
+ * amount  (initial amount)
+ * user_id 
+
+* Tag
+ * id
+ * name
+ * user_id
+
+* Transaction
+ * id
+ * account_id
+ * user_id
+ * amount
+ * date
+ * description
+ * 
+
+ 
