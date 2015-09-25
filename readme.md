@@ -22,7 +22,7 @@ This is a dummy application to provide a simple api. Don't use this project in a
 
 2) With composer, run `composer install` to download additional libraries
 
-3) Configure your virtual host, the servername `cash.api` must point to `path-to-/cash.api/public`: 
+3) Configure your virtual host, the server name `cash.api` must point to `path-to-/cash.api/public`: 
 
 httpd.conf:
 ```xml
@@ -50,3 +50,12 @@ hosts:
 
 
 
+# Tables
+
+* User
+** id
+** name
+** email
+** password
+** created_at
+** updated_at
