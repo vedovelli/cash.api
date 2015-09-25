@@ -63,15 +63,15 @@ All tables have `created_at` and `updated_at` fields
 
 * Account
  * id
+ * user_id
  * name
  * amount  (initial amount)
- * user_id 
-
+ 
 * Tag
  * id
- * name
  * user_id
-
+ * name
+ 
 * Transaction
  * id
  * account_id
@@ -79,6 +79,5 @@ All tables have `created_at` and `updated_at` fields
  * amount
  * date
  * description
- * 
 
  
